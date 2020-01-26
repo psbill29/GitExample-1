@@ -7,6 +7,7 @@ public class FileCreation {
 	public static void main(String[] args) {
 		
 		File f = new File("C:\\IOExamples\\test.txt");
+		//Added from GitHub directly
 		String path = "C:"+f.separator+"IOExample"+f.separator+"test.txt";
 		try {
 			f.createNewFile(); //If dir doesn't exist //parent folder must be present
